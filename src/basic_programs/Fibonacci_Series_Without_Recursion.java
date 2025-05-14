@@ -12,7 +12,7 @@ public class Fibonacci_Series_Without_Recursion {
 			System.out.print("How many Fibonacci numbers do you want to print: ");
 			int n = input.nextInt();
 			System.out.print(a+" "+b+" ");
-			for(int i=1;i<n;i++) {
+			for(int i=1;i<=n-2;i++) {
 				
 				c = a + b;
 				System.out.print(c+" ");
